@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 import Logo from "../../assets/logo.png";
 
 export default function Footer() {
@@ -18,26 +18,26 @@ export default function Footer() {
         </div>
 
         <nav className="flex items-center gap-8">
-          <a
-            href="#sobre"
+          <Link
+            href="/sobre"
             className="text-sm font-medium text-[#944736] transition-opacity hover:opacity-70"
           >
             Sobre
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="#servicos"
             className="text-sm font-medium text-[#944736] transition-opacity hover:opacity-70"
           >
             Serviços
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/contato"
             className="text-sm font-medium text-[#944736] transition-opacity hover:opacity-70"
           >
             Contato
-          </a>
+          </Link>
         </nav>
       </div>
 

@@ -25,12 +25,12 @@ export default function Hero() {
           bonita e especial.
         </p>
 
-        <a
+        <Link
           href="/agendamento"
           className="rounded-full bg-[#944736] px-9 py-4 font-button text-sm font-semibold uppercase tracking-[0.15em] text-white shadow-xl transition-all duration-300 hover:scale-105 hover:bg-[#803c2d]"
         >
           Agendar horário
-        </a>
+        </Link>
       </div>
     </section>
   );
