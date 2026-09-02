@@ -13,11 +13,11 @@ export default function Home() {
       <section className="bg-[#F9F5F0] py-24">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 px-6 md:flex-row">
           <div className="flex-1">
-            <span className="mb-4 block text-sm font-semibold uppercase tracking-[0.2em] text-[#C8A27A]">
+            <span className="mb-4 block text-sm font-semibold uppercase tracking-[0.2em] text-[#b9634f]">
               Depoimento
             </span>
 
-            <h2 className="mb-8 font-display text-4xl text-[#5A4636] md:text-5xl">
+            <h2 className="mb-8 font-display text-4xl text-[#944736] md:text-5xl">
               Experiências que transformam
             </h2>
 
@@ -41,7 +41,7 @@ export default function Home() {
             </blockquote>
 
             <div className="mt-8">
-              <p className="font-semibold text-[#5A4636]">Mariana Oliveira</p>
+              <p className="font-semibold text-[#944736]">Mariana Oliveira</p>
 
               <p className="text-sm text-[#5A4636]/70">
                 Cliente da EntreEllas há 2 anos.
