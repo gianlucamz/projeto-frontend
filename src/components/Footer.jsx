@@ -33,7 +33,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="#contato"
+            href="/contato"
             className="text-sm font-medium text-[#944736] transition-opacity hover:opacity-70"
           >
             Contato
